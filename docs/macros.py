@@ -37,6 +37,7 @@ def define_env(env):
             output += "{}\r\n{}\r\n{}\r\n----\r\n".format(
                 title_markdown,
                 subtitle_markdown,
-                github_client.render_markdown(release.body),
+#                github_client.render_markdown(release.body),
+                release.body,
             )
         return output

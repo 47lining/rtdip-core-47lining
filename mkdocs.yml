@@ -112,7 +112,8 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg # Page tree
   - pymdownx.snippets:
       url_download: true
-
+  - toc:
+      permalink: true
 nav:
   - Home: index.md
   - Getting started:
@@ -309,8 +310,8 @@ nav:
           - Azure: api/deployment/azure.md
   - Roadmaps:
       - Overview: roadmap/roadmap-overview.md
-      - 2023: roadmap/yearly-roadmaps/2023-development-roadmap.md
-      - 2022: roadmap/yearly-roadmaps/2022-development-roadmap.md
+      - "2023": roadmap/yearly-roadmaps/2023-development-roadmap.md
+      - "2022": roadmap/yearly-roadmaps/2022-development-roadmap.md
   - Releases:
       - core: releases/core.md
   - Blog:
