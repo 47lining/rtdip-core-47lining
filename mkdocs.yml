@@ -80,7 +80,9 @@ extra:
   generator: false
   tags:
     Pipelines: pipelines
-
+  version:
+    provider: mike
+    
 plugins:
   - search
   - autorefs
